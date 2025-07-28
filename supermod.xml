@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<mod name="GUI Icons Explorer"
+	description="Simple modding-helper menu, just to see all current game gui icons (tweak_data.gui.icons)"
+	author="BangL"
+	color="60 60 60"
+	version="1.0"
+	min_sblt_version="2.0.0">
+	<updates>
+		<update provider="modworkshop" identifier="52772" />
+	</updates>
+	<localization directory="loc">
+		<loc file="english.json" language="english" />
+	</localization>
+	<hooks>
+		<post hook_id="lib/managers/menu/menucomponentmanager" script_path="GuiIconsExplorer.lua" />
+	</hooks>
+</mod>
