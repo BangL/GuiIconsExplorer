@@ -3,10 +3,12 @@
 	description="Simple modding-helper menu, just to see all current game gui icons (tweak_data.gui.icons)"
 	author="BangL"
 	color="60 60 60"
-	version="2.0"
+	version="2.1"
 	min_sblt_version="2.0.0">
 	<updates>
-		<update provider="modworkshop" identifier="52772" />
+		<update identifier="guiiconsexplorer">
+			<host meta="https://raw.githubusercontent.com/BangL/raid-mods-meta/main/guiiconsexplorer.json"/>
+		</update>
 	</updates>
 	<localization directory="loc">
 		<loc file="english.json" language="english" />
