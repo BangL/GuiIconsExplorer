@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<mod name="GUI Icons Explorer"
+<mod name="GUI Icons Explorer" image="icon.png"
 	description="Simple modding-helper menu, just to see all current game gui icons (tweak_data.gui.icons)"
 	author="BangL"
 	color="60 60 60"
