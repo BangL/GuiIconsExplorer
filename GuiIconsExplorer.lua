@@ -104,8 +104,10 @@ function GuiIconsExplorer:_on_icon_clicked(selected_item_data)
 end
 
 function GuiIconsExplorer:close()
-    self._root_panel:clear()
-    self._root_panel.ctrls = {}
+    if self._root_panel then
+        self._root_panel:clear()
+        self._root_panel.ctrls = {}
+    end
 end
 
 --------------------------------------------------------------------------------
